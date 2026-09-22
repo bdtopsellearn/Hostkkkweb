@@ -147,11 +147,11 @@ try:
 except (TypeError, ValueError):
     KEEPALIVE_PORT = 10000
 
-BRAND       = "ᶜᴵᴾᴴᴱᴿ ᵀᴱᶜʜ ᴴᴼˢᵀ"
-BRAND_VER   = "v2.1"
+BRAND       = "⟦𝗖𝗢𝗗𝗜𝗡𝗚_𝗝𝗔𝗠𝗘𝗦⟧"
+BRAND_VER   = "v99.1"
 BRAND_TAG   = f"{BRAND} {BRAND_VER}"
-SUPPORT_USR = "@lord_ciph3r"
-UPDATE_CH   = "https://t.me/cipher_tech_team"
+SUPPORT_USR = "CODINGJAMES_X"
+UPDATE_CH   = "https://t.me/coderjamesx"
 FOOTER      = f"\n\n<blockquote>{BRAND_TAG}</blockquote>"
 
 # AI Circuit Breaker State
@@ -252,7 +252,7 @@ PLAN_LIMITS: Dict[str, Dict[str, Any]] = {    "free":       {"name": "Free",    
     "basic":      {"name": "Basic",      "max_bots": 6,   "ram": 512,  "cpu": 150, "auto_restart": True,  "price": 10,   "days": 30},
     "pro":        {"name": "Pro",        "max_bots": 8,   "ram": 2048, "cpu": 200, "auto_restart": True,  "price": 15,   "days": 30},
     "enterprise": {"name": "Enterprise", "max_bots": 10,  "ram": 4096, "cpu": 400, "auto_restart": True,  "price": 35,   "days": 30},
-    "lifetime":   {"name": "Lifetime",   "max_bots": 15,  "ram": 8192, "cpu": 800, "auto_restart": True,  "price": 150,  "days": 36500},
+    "lifetime":   {"name": "Lifetime",   "max_bots": 15,  "ram": 8192, "cpu": 800, "auto_restart": True,  "price": 150,  "days": 365},
 }
 
 # ─── GHOST PROTOCOL: KERNEL STABILITY MONITORING ──────────────────────────────
@@ -1194,12 +1194,12 @@ def _format_cpu_limit(cpu_pct: int) -> str:
 
 
 PAYMENT_METHODS: Dict[str, Dict[str, Any]] = {
-    "bkash":       {"name": "bKash",       "number": "01306633616",         "type": "Send Money",       "tag": "[B]"},
-    "nagad":       {"name": "Nagad",       "number": "01306633616",         "type": "Send Money",       "tag": "[N]"},
-    "rocket":      {"name": "Rocket",      "number": "01306633616",         "type": "Send Money",       "tag": "[R]"},
-    "upay":        {"name": "Upay",        "number": "01306633616",         "type": "Send Money",       "tag": "[U]"},
-    "binance":     {"name": "Binance Pay", "number": "Binance ID 758637628","type": "USDT (BEP20/TRC20)","tag": "[BP]"},
-    "trustwallet": {"name": "Trust Wallet","number": "Set wallet address in admin panel","type": "USDT (BEP20/TRC20)","tag": "[TW]"},
+    "bkash":       {"name": "bKash",       "number": "01619789895",         "type": "Send Money",       "tag": "[B]"},
+    "nagad":       {"name": "Nagad",       "number": "01619789895",         "type": "Send Money",       "tag": "[N]"},
+    "rocket":      {"name": "Rocket",      "number": "01619789895",         "type": "Send Money",       "tag": "[R]"},
+    "upay":        {"name": "Upay",        "number": "01619789895",         "type": "Send Money",       "tag": "[U]"},
+    "binance":     {"name": "Binance Pay", "number": "Binance ID 1210169527","type": "USDT (BEP20/TRC20)","tag": "[BP]"},
+    "trustwallet": {"name": "Binance Wallet","number": "Set wallet address in admin panel","type": "USDT (BEP20/TRC20)","tag": "[TW]"},
     "bank":        {"name": "Bank",        "number": "Contact admin",       "type": "Bank Transfer",    "tag": "[BK]"},
 }
 
